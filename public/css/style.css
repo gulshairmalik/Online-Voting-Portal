@@ -1,0 +1,94 @@
+body{
+	margin:0;
+	background:#c8c8c8;
+    font:600 16px/18px 'Open Sans',sans-serif;
+    background:url(../img/7.jpg) no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-wrap{
+	width:100%;
+    margin:auto;
+    margin-top: 20px;
+	max-height:470px;
+	position:relative;
+	/*background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;*/
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+	background: rgba(0, 0,0, 0.3);
+	width:100%;
+	height:100%;
+	padding:25px 70px 50px 70px;
+    
+
+}
+
+
+#submit1,#submit2{
+	border-radius: 25px !important;
+}
+
+#login,#reg{
+	border-radius: 25px !important;
+	width: 150px;
+}
+#btns{
+	transform: translateY(400%);
+}
+
+#heading {
+	font-size: 70px;
+	color:rgba(0, 0,0, 0.7);
+}
+
+
+input.form-control{
+	background: transparent !important;
+	border-radius: 25px;
+}
+
+.login-wrap h1{
+	color: whitesmoke !important;
+	margin-bottom: 20px;
+}
+
+.form-control{
+	color:white !important;
+}
+
+::placeholder{
+	color: white !important;
+}
+
+form input{
+	color:whitesmoke;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
